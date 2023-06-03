@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 (function(factory, window){
   "use strict";
   if (typeof define === 'function' && define.amd) {
