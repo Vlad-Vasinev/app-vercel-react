@@ -26,10 +26,10 @@ import YorkFirstImg from '../../assets/images/york1.PNG';
 import YorkSecondImg from '../../assets/images/york2.PNG';
 
 // for production
+import 'mapbox-gl/dist/mapbox-gl.css';
 import mapboxgl from 'mapbox-gl';
 mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default; // eslint-disable-line
 
-import 'mapbox-gl/dist/mapbox-gl.css';
 // import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css';
 
 // import MapboxDirections from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
